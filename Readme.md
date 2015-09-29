@@ -15,6 +15,7 @@ Options:
 - **port**: port number Plex Server is listening on (optional, default: 32400)
 - **username**: plex.tv username (optional / required for PlexHome)
 - **password**: plex.tv password (optional / required for PlexHome)
+- **token**: plex.tv authentication token (optional)
 - **options**: override additional PlexHome options (optional, but recommended for PlexHome)
 	- **identifier**: A unique client identifier. Default is a `generated uuid v4`. *Note: you should really provide this rather than let it get generated. Every time your app runs, a new "device" will get registered on your Plex account, which can lead to poor performance once hundreds or thousands of them get created. Trust me!*
 	- **product**: The name of your application. Official Plex examples: `Plex Web`, `Plex Home Theater`, `Plex for Xbox One`. Default `Node.js App`
@@ -186,6 +187,12 @@ Do you have project which uses plex-api? Please tell us about it and we'll list 
 Alexa (Amazon Echo) app for interacting with a Plex Server and controlling client playback.
 
 https://github.com/OverloadUT/alexa-plex by [@OverloadUT](https://github.com/OverloadUT).
+
+### nl.kikkert.plex
+
+The Plex Remote control app for the Homey device.
+
+https://github.com/MikeOne/nl.kikkert.plex by [@MikeOne](https://github.com/MikeOne).
 
 ## Contributing
 
